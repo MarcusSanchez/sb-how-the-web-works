@@ -1,0 +1,36 @@
+PART 1:
+
+What is HTTP?
+ - HTTP is a protocol which permits fetching of resources.
+
+What is a URL?
+ - String of characters that identifies a resource.
+
+What is a DNS?
+ - A system that transfers domain names to IP addresses.
+
+What is a query string?
+ - Metadata sent to a web server as part of a request.
+
+What are two HTTP verbs and how are they different?
+ - GET - Requests data from a specified resource
+ - POST - Submits data to be processed to a specified resource and returns data
+
+What is an HTTP request?
+ - A request for data from a specified resource.
+
+What is an HTTP response?
+ - A response to a request for data from a specified resource.
+
+What is an HTTP header? Give a couple examples of request and response headers you have seen.
+ - A header is a specified data that is sent to a server as part of a request or response.
+ - Request: Content-Type: application/json
+ - Response: Cache-Control: "no-cache, no-store, must-revalidate"
+
+What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
+ - The browser sends a request to the server for the html file.
+ - The server responds with the page.html file.
+ - The browser parses the html file, and asynchronously requests other assets required.
+ - The server responds with the assets.
+ - The browser renders the page.
+
